@@ -1,0 +1,4 @@
+executable = "Fusion9"
+schema = "avalon-core:application-1.0"
+application_dir = "fusion"
+label = "Black Magic Fusion 9"
