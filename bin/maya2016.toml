@@ -14,10 +14,16 @@ description = ""
 "{AVALON_CORE}/res/workspace.mel" = "workspace.mel"
 
 [environment]
+FFMPEG_PATH="P:/pipeline/dev/bin/ffmpeg/bin/ffmpeg.exe"
+
+COLORBLEED_SCRIPTS="P:/pipeline/dev/git/cbMayaScripts/cbMayaScripts"
+
 MAYA_DISABLE_CLIC_IPM = "Yes"  # Disable the AdSSO process
 MAYA_DISABLE_CIP = "Yes"  # Shorten time to boot
 MAYA_DISABLE_CER = "Yes"
 PYTHONPATH = [
 	"{AVALON_CORE}/setup/maya",
+    "P:/pipeline/2.1_dev/git/scriptsmenu/python",
+    "P:/pipeline/dev/git/cb",
 	"{PYTHONPATH}"
 ]
