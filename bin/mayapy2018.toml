@@ -11,7 +11,7 @@ executable = "mayapy2018"
 description = ""
 
 [copy]
-"{AVALON_CORE}/res/workspace.mel" = "workspace.mel"
+"{COLORBLEED_CONFIG}/res/workspace.mel" = "workspace.mel"
 
 [environment]
 FFMPEG_PATH="P:/pipeline/dev/apps/ffmpeg/bin/ffmpeg.exe"
