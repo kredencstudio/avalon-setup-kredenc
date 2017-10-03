@@ -23,7 +23,11 @@ MAYA_DISABLE_CIP = "Yes"  # Shorten time to boot
 MAYA_DISABLE_CER = "Yes"
 PYTHONPATH = [
 	"{AVALON_CORE}/setup/maya",
+    "P:/pipeline/dev/git/Qt.py",
     "P:/pipeline/2.1_dev/git/scriptsmenu/python",
     "P:/pipeline/dev/git/cb",
+    "P:/pipeline/dev/git/maya-capture",
+    "P:/pipeline/dev/git/maya-capture-gui",
+    "P:/pipeline/dev/git/maya-capture-gui-cb",
 	"{PYTHONPATH}"
 ]
