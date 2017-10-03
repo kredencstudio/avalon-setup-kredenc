@@ -1,4 +1,10 @@
-executable = "Fusion9"
+executable = "fusion9"
 schema = "avalon-core:application-1.0"
 application_dir = "fusion"
 label = "Black Magic Fusion 9"
+
+[environment]
+PATH=[
+    "C:/Program Files/Blackmagic Design/Fusion 9",
+    "{PATH}"
+]
