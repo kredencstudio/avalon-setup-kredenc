@@ -1,0 +1,36 @@
+application_dir = "maya"
+default_dirs = [
+	"scenes",
+	"data",
+	"renderData/shaders",
+	"images"
+]
+label = "Autodesk Maya 2018"
+schema = "avalon-core:application-1.0"
+executable = "maya2018"
+description = ""
+
+[copy]
+"{AVALON_CORE}/res/workspace.mel" = "workspace.mel"
+
+[environment]
+FFMPEG_PATH="P:/pipeline/dev/apps/ffmpeg/bin/ffmpeg.exe"
+
+COLORBLEED_SCRIPTS="P:/pipeline/dev/git/cbMayaScripts/cbMayaScripts"
+
+MAYA_DISABLE_CLIC_IPM = "Yes"  # Disable the AdSSO process
+MAYA_DISABLE_CIP = "Yes"  # Shorten time to boot
+MAYA_DISABLE_CER = "Yes"
+PYMEL_SKIP_MEL_INIT = "Yes"
+LC_ALL= "C"  # Mute color management warnings
+
+PYTHONPATH = [
+	"{AVALON_CORE}/setup/maya",
+    "P:/pipeline/dev/git/Qt.py",
+    "P:/pipeline/2.1_dev/git/scriptsmenu/python",
+    "P:/pipeline/dev/git/cb",
+    "P:/pipeline/dev/git/maya-capture",
+    "P:/pipeline/dev/git/maya-capture-gui",
+    "P:/pipeline/dev/git/maya-capture-gui-cb",
+	"{PYTHONPATH}"
+]
