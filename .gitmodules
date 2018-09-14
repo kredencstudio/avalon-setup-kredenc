@@ -13,6 +13,6 @@
 [submodule "git/pyblish-qml"]
 	path = git/pyblish-qml
 	url = https://github.com/pyblish/pyblish-qml.git
-[submodule "git/avalon-config-kredenc"]
-	path = git/avalon-config-kredenc
-	url = https://github.com/kredencstudio/avalon-config-kredenc
+[submodule "git/colorbleed-config"]
+	path = git/colorbleed-config
+	url = https://github.com/pypeclub/colorbleed-config
